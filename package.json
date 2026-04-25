@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-bot-juridico",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp para escritório jurídico",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite index.js",
+    "dev": "watch index.js"
+    "build": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.26.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
